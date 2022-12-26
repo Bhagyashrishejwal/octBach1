@@ -1,0 +1,27 @@
+.tran{
+    height:200px;
+    width:200px;
+    background-color:red;
+    transition:height 1s,width 1s,transform 1s;
+
+}
+.tran:hover{
+    height:400px;
+    width:400px;
+    transform:rotate(180deg);
+    background-color:orangered;
+}
+.ani{
+    height:200px;
+    width:200px;
+    background-color:red; 
+    animation-name:annimation;
+    animation-duration: 10s; 
+    animation-iteration-count:infinite;
+    animation-delay:4s;
+}
+@keyframes annimation{
+    from{background-color:red}
+    to{background-color:blue}
+
+}
