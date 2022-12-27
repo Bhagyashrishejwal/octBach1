@@ -18,6 +18,7 @@
     animation-name:annimation;
     animation-duration: 10s; 
     animation-iteration-count:infinite;
+    
     animation-delay:4s;
 }
 @keyframes annimation{
