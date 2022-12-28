@@ -15,9 +15,11 @@
     height:200px;
     width:200px;
     background-color:red; 
+    
     animation-name:annimation;
     animation-duration: 10s; 
     animation-iteration-count:infinite;
+    
     animation-delay:4s;
 }
 @keyframes annimation{
